@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+}
+
+.header{
+    width: calc(100% - 40px);
+    position: relative;
+    padding: 20px;
+}
+
+.logo{
+    width: 374px;
+    height: 54px;
+    background-image: url(../images/logo.png);
+}
+
+.menu{
+    position: absolute;
+    right: 20;
+    top: 35;
+}
+
+.menu_item{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: Tahoma;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.movie {
+    margin: 50px;
+    width: 300px;
+    border-radius: 25px;
+    transition: all 0.3s;
+    display: inline-block;
+}
+
+.movie:hover {
+    box-shadow: 0 0 55px #616161;
+    transform: scale(1.05);
+}
+
+.mov_pic{
+    height: 450px;
+    background-size: cover;
+    border-radius: 25px 25px 0px 0px;
+    background-position: center;
+}
+
+.mov_info {
+    background-color: gray;
+    border-radius: 0px 0px 25px 25px;
+    text-align: center;
+    font-family: Tahoma;
+    padding: 20px 0 20px 0;
+}
+
+.title {
+    font-size: 24px;
+    color: #f2f2f2;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    color: #d2d2d2;
+}
